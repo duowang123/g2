@@ -5,7 +5,6 @@
 </template>
 
 <script>
-// import Login from './views/login/login'
 export default {
   name: 'app',
   components: {},
