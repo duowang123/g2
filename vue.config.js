@@ -23,7 +23,7 @@ module.exports = {
     // sourceMap: true, //  方便调试样式。  会影响编译速度，平时要关闭
     loaderOptions: {
       sass: {
-        prependData: '@import \'./mobile/style/theme.scss\';'
+        prependData: '@import \'./src/style/theme.scss\';'
       }
     }
   },

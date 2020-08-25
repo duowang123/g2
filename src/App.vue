@@ -1,19 +1,14 @@
 <template>
   <div id="app">
-    <demo />
+    <router-view />
   </div>
 </template>
 
 <script>
 // import Login from './views/login/login'
-import Demo from './views/demo/demo'
-
 export default {
   name: 'app',
-  components: {
-    // Login,
-    Demo
-  }
+  components: {},
 }
 </script>
 
