@@ -1,0 +1,65 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:production": "vue-cli-service serve --mode production",
+    "serve:development": "vue-cli-service serve --mode development",
+    "serve:test": "vue-cli-service serve --mode test",
+    "build": "vue-cli-service build --mode production",
+    "build:test": "vue-cli-service build --mode test",
+    "build:development": "vue-cli-service build --mode development",
+    "lint": "eslint --fix --ext .js,.vue src",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@antv/g2": "^4.0.15",
+    "axios": "^0.19.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^3.4.4",
+    "element-ui": "^2.13.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.5",
+    "vue-router": "^3.1.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "## Project setup ``` yarn install ```",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duowang123/webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duowang123/webpack/issues"
+  },
+  "homepage": "https://github.com/duowang123/webpack#readme"
+}
